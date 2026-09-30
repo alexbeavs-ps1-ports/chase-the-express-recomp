@@ -4,9 +4,14 @@ name = "Chase the Express"
 id = "SLUS-01151"
 players = 1
 exe = "disc/SLUS_011.51"
+disc = "disc/Covert Ops - Nuclear Dawn (USA) (Disc 1).cue"
 discs = [
     "disc/Covert Ops - Nuclear Dawn (USA) (Disc 1).cue",
     "disc/Covert Ops - Nuclear Dawn (USA) (Disc 2).cue",
+]
+disc_serials = [
+    "SLUS-01151",
+    "SLUS-01157",
 ]
 load_address = "0x80012100"
 entry_pc = "0x80029B6C"
@@ -18,15 +23,18 @@ out_dir = "disc"
 bin_name = "Covert Ops - Nuclear Dawn (USA) (Disc 1).bin"
 cue_name = "Covert Ops - Nuclear Dawn (USA) (Disc 1).cue"
 boot_exe = "SLUS_011.51"
-known_sizes = [658576464]
+known_sizes = [658576464, 680468880]
 known_md5 = [
   "63cdb18e61fc6d444b10afa89a152809",
+  "1f53b7b638f04a86071c65afb0060a6d",
 ]
 known_sha1 = [
   "241ba4b899ebcaf1c339aa029150f11a77b9bc9b",
+  "d77320fecc5755f1560b4a466083dc6cd53b4947",
 ]
 known_crc32 = [
   "4d8fd5e7",
+  "3cee0ef6",
 ]
 
 [recompiler]
