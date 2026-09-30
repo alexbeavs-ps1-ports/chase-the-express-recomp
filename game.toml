@@ -1,0 +1,59 @@
+
+[game]
+name = "Chase the Express"
+id = "SLUS-01151"
+players = 1
+exe = "disc/SLUS_011.51"
+discs = [
+    "disc/Covert Ops - Nuclear Dawn (USA) (Disc 1).cue",
+    "disc/Covert Ops - Nuclear Dawn (USA) (Disc 2).cue",
+]
+load_address = "0x80012100"
+entry_pc = "0x80029B6C"
+text_size = "0x000D2000"
+stack_base = "0x801FFFF0"
+
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Covert Ops - Nuclear Dawn (USA) (Disc 1).bin"
+cue_name = "Covert Ops - Nuclear Dawn (USA) (Disc 1).cue"
+boot_exe = "SLUS_011.51"
+known_sizes = [658576464]
+known_md5 = [
+  "63cdb18e61fc6d444b10afa89a152809",
+]
+known_sha1 = [
+  "241ba4b899ebcaf1c339aa029150f11a77b9bc9b",
+]
+known_crc32 = [
+  "4d8fd5e7",
+]
+
+[recompiler]
+bios_config = "psxrecomp/bios/SCPH1001.toml"
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+openbios = false
+bios_hle = false
+window_title = "Chase the Express Recompiled"
+memcard_dir = "saves"
+overlay_cache = true
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+multitap_analog = true
+default_mode = "digital"
+
+[netplay]
+require_cue = true
+required_tracks = 1
+required_disc_fp = "7a5e15f04cda5ae79da88355b1500487a0e5ee7dedcb280d89494247de3677ef"
+
+[pgo]
+enabled = false

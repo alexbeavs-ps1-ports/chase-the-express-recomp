@@ -1,0 +1,27 @@
+[project]
+title = "Chase the Express"
+region = "USA"
+track = "recompilation"
+status = "source_prepared_unqualified"
+
+[retail_identity]
+disc_count = 2
+serials = ["SLUS-01151", "SLUS-01157"]
+executable_paths = ["SLUS_011.51", "SLUS_011.57"]
+executable_sha256 = "19c93f2869a3b72c2b021d4b8ca1bc36505628c9ab7020594f8e51c48adcf934"
+load_address = "0x80012100"
+entry_point = "0x80029B6C"
+
+[bios]
+profile = "SCPH1001"
+sha256 = "71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3"
+
+[framework]
+name = "psxrecomp"
+qualification = "pending T168 and shared canaries"
+template_commit = "77fc84d18cd341ba0c0feb68a63f0904f8c467f0"
+
+[release]
+target_version = "v0.4.0"
+private_only = true
+profile_status = "CI training pending"

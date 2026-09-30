@@ -1,0 +1,28 @@
+{
+  "disc_count": 2,
+  "verdict": "data-only",
+  "differing_program_fields": [],
+  "warnings": [],
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "Covert Ops - Nuclear Dawn (USA) (Disc 1).cue",
+      "cue_path": "disc/Covert Ops - Nuclear Dawn (USA) (Disc 1).cue",
+      "serial": "SLUS-01151",
+      "boot_exe": "SLUS_011.51",
+      "entry_pc": "0x80029B6C",
+      "track_count": 1,
+      "required_disc_fp": "7a5e15f04cda5ae79da88355b1500487a0e5ee7dedcb280d89494247de3677ef"
+    },
+    {
+      "index": 2,
+      "cue_name": "Covert Ops - Nuclear Dawn (USA) (Disc 2).cue",
+      "cue_path": "disc/Covert Ops - Nuclear Dawn (USA) (Disc 2).cue",
+      "serial": "SLUS-01157",
+      "boot_exe": "SLUS_011.57",
+      "entry_pc": "0x80029B6C",
+      "track_count": 1,
+      "required_disc_fp": "792d88bca19770b883e7e5db22ea61efb9a8d0d0a21d0fb953459365f50f4b1e"
+    }
+  ]
+}

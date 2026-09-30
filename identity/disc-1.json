@@ -1,0 +1,31 @@
+{
+  "cue_path": "disc/Covert Ops - Nuclear Dawn (USA) (Disc 1).cue",
+  "cue_name": "Covert Ops - Nuclear Dawn (USA) (Disc 1).cue",
+  "bin_name": "Covert Ops - Nuclear Dawn (USA) (Disc 1).bin",
+  "track_count": 1,
+  "data_track_size": 658576464,
+  "data_track_md5": "63cdb18e61fc6d444b10afa89a152809",
+  "data_track_sha1": "241ba4b899ebcaf1c339aa029150f11a77b9bc9b",
+  "data_track_crc32": "4d8fd5e7",
+  "boot_exe": "SLUS_011.51",
+  "serial": "SLUS-01151",
+  "serial_exe": "SLUS_011.51",
+  "volume_id": "",
+  "display_name": "Chase the Express",
+  "load_address": "0x80012100",
+  "entry_pc": "0x80029B6C",
+  "text_size": "0x000D2000",
+  "stack_base": "0x801FFFF0",
+  "require_cue": true,
+  "required_disc_fp": "7a5e15f04cda5ae79da88355b1500487a0e5ee7dedcb280d89494247de3677ef",
+  "boot_exe_sha256": "19c93f2869a3b72c2b021d4b8ca1bc36505628c9ab7020594f8e51c48adcf934",
+  "seed_count": 2071,
+  "warnings": [
+    "cue has only 1 TRACK \u2014 Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
