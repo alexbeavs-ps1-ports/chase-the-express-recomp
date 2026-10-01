@@ -59,6 +59,10 @@ multitap_analog = true
 default_mode = "digital"
 
 [netplay]
+required_disc_fps = [
+    "7a5e15f04cda5ae79da88355b1500487a0e5ee7dedcb280d89494247de3677ef",
+    "792d88bca19770b883e7e5db22ea61efb9a8d0d0a21d0fb953459365f50f4b1e",
+]
 require_cue = true
 required_tracks = 1
 required_disc_fp = "7a5e15f04cda5ae79da88355b1500487a0e5ee7dedcb280d89494247de3677ef"
